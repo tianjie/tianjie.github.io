@@ -1,7 +1,8 @@
 const themeConfig = require('./config/theme/')
 
 module.exports = {
-  base : "tianjie.github.io",
+  base : "/",
+  dest: 'public',
   title: "天街小雨",
   description: 'Fake It Till You Make It!',
   head: [
